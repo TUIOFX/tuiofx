@@ -2,7 +2,7 @@
 
 A JavaFX Toolkit for Interactive Tabletops and Surfaces
 
-[![tuiofx video](https://i.vimeocdn.com/video/521075838_640.jpg)](https://i.vimeocdn.com/video/521075838_640.jpg)
+[![tuiofx video](https://i.vimeocdn.com/video/521075838_640.jpg)](https://vimeo.com/129548709)
 
 
 ## Introduction
