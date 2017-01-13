@@ -21,7 +21,11 @@ TUIOFX requires Java 8u45 and a TUIO enabled tracker. TUIOFX further relies on t
 
 ## Downloading TUIOFX
 
-Below are all currently available downloads for the latest development version of TUIOFX (v0.10.4). There is not yet a stable version. 
+- TUIOFX Quickstart
+- TUIOFX-Core 
+- TUIOFX-All
+
+In order to get an overview ogf the API, please look at the [JavaDoc](http://tuiofx.org/api/index.html)
 
 ## Testing with your TUIO-Setup
 
@@ -45,3 +49,42 @@ Now, create a TUIOFX instance by passing over the JavaFX stage that should react
 TuioFX tuioFX = new TuioFX(stage, Configuration.default());
 ```
 Optionally, you can include TUIOFX-WidgetToolkit: 
+```java
+tuioFX.enableMTWidgets(true);
+```
+Finally, start the TUIOFX instance to react to TUIO input: 
+```java
+tuioFX.start();
+```
+Note: The class Configuration allows to customise some parameters to optimise TUIOFX for specific hardware or make application specific settings - with several presets at hand. Among the parameters that can be influenced are the duration of a long press, the detection of swipes, etc. Via the Configuration and Configuration.Builder it is also possbile to toggle the visualisation of detected touches and the debug output. 
+
+## Your First TUOIFX Application
+
+Here is a simple example that illustrates the usage of TUIOFX in a JavaFX application: 
+
+```java
+public class TuioFXApplication extends Application {
+
+    public static void main(String[] args) {
+        TuioFX.enableJavaFXTouchProperties();
+        launch(args);
+    }
+
+    @Override
+    public void start(Stage stage) throws Exception {
+        Pane root = new StackPane();
+        Scene scene = new Scene(root);
+        stage.setScene(scene);
+
+        // start TuioFX
+        TuioFX tuioFX = new TuioFX(stage, Configuration.debug());
+        tuioFX.enableMTWidgets(true);
+        tuioFX.start();
+
+        // display application window
+        stage.show();
+    }
+}
+```
+
+Download a simple Hello World example [here](http://tuiofx.org/files/HelloTUIOFX.java). The example displays a Label which can be scaled, rotated, and moved with mutli-touch gestures. 
