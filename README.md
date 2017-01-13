@@ -15,7 +15,7 @@ The TUIOFX toolkit comes with two parts, the **TUIOFX-Core** and the **TUIOFX-Wi
 ## Prerequisites
 
 TUIOFX was tested with Java 8u45 and requires a TUIO enabled tracker. TUIOFX further relies on the following libraries:
-- TUIO 1.1. Java API
+- [TUIO 1.1. Java API](https://github.com/TUIOFX/TUIO11_JAVA)
 - Simple Logging Facade for Java (SLF4J)
 - Guava: Google Core Libraries for Java
 
@@ -34,7 +34,7 @@ In order to get an overview ogf the API, please look at the [JavaDoc](http://tui
 
 ## Testing with your TUIO-Setup
 
-Both JAR files are runnable by either double-clicking or calling java -jar tuiofx-<version>.jar . Each JAR starts a small demo that allows you to test your TUIO setup. Both demos expect TUIO compatible hardware, delivering TUIO events on the standard port 3333. The TUIO webpage provides a range of trackers, bridges usfecusa and simulators, that can help you with your specific setup. Please mind that you require the needed libraries to start the JARs. 
+Both JAR files are runnable by either double-clicking or calling ```java -jar tuiofx-<version>.jar```. Each JAR starts a small demo that allows you to test your TUIO setup. Both demos expect TUIO compatible hardware, delivering TUIO events on the standard port 3333. The [TUIO webpage](http://www.tuio.org/?software) provides a range of trackers, bridges usfecusa and simulators, that can help you with your specific setup. Please mind that you require the needed libraries to start the JARs. 
 
 ## Using TUIOFX in your Code
 
