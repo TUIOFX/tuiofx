@@ -124,8 +124,8 @@ text.getProperties().put("usefocusArea", "false");
 ```
 Both properties can also be set in Scene Builder for an FXML file.
 
-### Publications
+## Publications
 
-- Fetter, M., Bimamisa, D. and Gross, T. Task-Based Focus and AdHoc-Focus-Territory—Novel Concepts for Shared Interactive Surfaces. In Extended Abstracts of the Conference on Human Factors in Computing Systems – CHI 2016 (May 7-12, San Jose, CA, USA). ACM Press, New York, NY, USA, 2016. pp. 1193-1200.  
-- Fetter, M., Bimamisa, D. and Gross, T. Plattformübergreifende Interaktive Tischanwendungen mittels TUIOFX (Platform-Independent Applications for Interactive Tables with TUIOFX; in German). In 15. Fachuebergreifende Konferenz fuer interaktive und kooperative Medien - M&C 2015 (Sept. 6-9, Stuttgart, Germany). Walter de Gruyter GmbH, Berlin/Boston, 2015. pp. 359-362.(ISBN: 987-3-11-044334-9). Honorable Mention Poster Award
-- Fetter, M. and Bimamisa, D. TUIOFX—Toolkit Support for the Development of JavaFX Applications for Interactive Tabletops. In Proceedings of the 15th IFIP TC.13 International Conference on Human-Computer Interaction - INTERACT 2015 (Sept. 14-18, Bamberg, Germany). Springer, Heidelberg, Germany, 2015. pp. 476-479. 
+- Fetter, M., Bimamisa, D. and Gross, T. [Task-Based Focus and AdHoc-Focus-Territory—Novel Concepts for Shared Interactive Surfaces](http://dl.acm.org/citation.cfm?doid=2851581.2892446). In Extended Abstracts of the Conference on Human Factors in Computing Systems – CHI 2016 (May 7-12, San Jose, CA, USA). ACM Press, New York, NY, USA, 2016. pp. 1193-1200.  
+- Fetter, M., Bimamisa, D. and Gross, T. [Plattformübergreifende Interaktive Tischanwendungen mittels TUIOFX](http://cml.hci.uni-bamberg.de/publ/mc15_fetter_et_al_TUIOFX.pdf) (Platform-Independent Applications for Interactive Tables with TUIOFX; in German). In 15. Fachuebergreifende Konferenz fuer interaktive und kooperative Medien - M&C 2015 (Sept. 6-9, Stuttgart, Germany). Walter de Gruyter GmbH, Berlin/Boston, 2015. pp. 359-362.(ISBN: 987-3-11-044334-9). Honorable Mention Poster Award
+- Fetter, M. and Bimamisa, D. [TUIOFX—Toolkit Support for the Development of JavaFX Applications for Interactive Tabletops](http://link.springer.com/chapter/10.1007%2F978-3-319-22723-8_44#page-1). In Proceedings of the 15th IFIP TC.13 International Conference on Human-Computer Interaction - INTERACT 2015 (Sept. 14-18, Bamberg, Germany). Springer, Heidelberg, Germany, 2015. pp. 476-479. 
