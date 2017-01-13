@@ -93,3 +93,30 @@ public class TuioFXApplication extends Application {
 ```
 
 Download a simple Hello World example [here](http://tuiofx.org/files/HelloTUIOFX.java). The example displays a Label which can be scaled, rotated, and moved with mutli-touch gestures. 
+
+## TUIOFX Properties
+
+TUIOFX gives you some finer controlled over some behaviours by using properties. 
+
+### The isTUIOTouchTransparent-Property
+
+Sometimes it is necessary to make some nodes transparent for receiving touch inputs. One example are components like ```HBox``` or ```VBox``` you only need for layouting. If you want such components not to interfere with the listeners of parent nodes, you can use the ```isTouchTransparent```-Property to make a component 'invisible' for touch-events that are send through TUIOFX. 
+
+```java
+hbox.getProperties().put("isTouchTransparent", "true"); 
+```
+This property can also be set in Scene Builder for an FXML file. 
+
+### The focusArea-Property
+
+Allows to set a Task-based focus for groups of widgets that are used by one user in multi-user enviroments. Detailed instructions are coming later!
+
+```java
+hbox.getProperties().put("focusArea", "true"); 
+```
+The usefocusArea-property allows for further adjustments. It allows to specify for single elements, if it should ignore any focus areas set in parent elements. 
+
+```java
+text.getProperties().put("usefocusArea", "false"); 
+```
+Both properties can also be set in Scene Builder for an FXML file. 
