@@ -2,7 +2,7 @@
 
 A JavaFX Toolkit for Interactive Tabletops and Surfaces
 
-## Overview
+## Introduction
 
 The TUIOFX toolkit aims at supporting Java developers that want to develop for shared interactive surfaces, like multi-user, multi-touch tabletops and walls that support the TUIO protocol.
 
@@ -14,7 +14,7 @@ TUIOFX-WidgetToolkit optimised JavaFX pre-built look-and-feel for multi-user and
 
 ## Prerequisites
 
-TUIOFX requires Java 8u45 and a TUIO enabled tracker. TUIOFX further relies on the following libraries:
+TUIOFX was tested with Java 8u45 and requires a TUIO enabled tracker. TUIOFX further relies on the following libraries:
 - TUIO 1.1. Java API
 - Simple Logging Facade for Java (SLF4J)
 - Guava: Google Core Libraries for Java
