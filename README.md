@@ -6,11 +6,11 @@ A JavaFX Toolkit for Interactive Tabletops and Surfaces
 
 The TUIOFX toolkit aims at supporting Java developers that want to develop for shared interactive surfaces, like multi-user, multi-touch tabletops and walls that support the TUIO protocol.
 
-The TUIOFX toolkit comes with two parts, the TUIOFX-Core and the TUIOFX-WidgetToolkit:
+The TUIOFX toolkit comes with two parts, the **TUIOFX-Core** and the **TUIOFX-WidgetToolkit**:
 
-TUIOFX-Core provides an abstraction from the raw TUIO messages and transforms them into standard JavaFX Touch- and Gesture-Events. It uses JavaFX’s multi-touch event handling infrastructure and its predefined TouchEvent and GestureEvent types in order to send events about recognised touches and gesture to the associated target Node (UI element).
+**TUIOFX-Core** provides an abstraction from the raw TUIO messages and transforms them into standard JavaFX Touch- and Gesture-Events. It uses JavaFX’s multi-touch event handling infrastructure and its predefined TouchEvent and GestureEvent types in order to send events about recognised touches and gesture to the associated target Node (UI element).
 
-TUIOFX-WidgetToolkit optimised JavaFX pre-built look-and-feel for multi-user and multi-touch interaction. For example, UI controls that are adjusted in size for touch on big screens and text-fields that allow simultaneous text-entry through multiple on-screen keyboards. 
+**TUIOFX-WidgetToolkit** optimised JavaFX pre-built look-and-feel for multi-user and multi-touch interaction. For example, UI controls that are adjusted in size for touch on big screens and text-fields that allow simultaneous text-entry through multiple on-screen keyboards. 
 
 ## Prerequisites
 
@@ -21,9 +21,14 @@ TUIOFX was tested with Java 8u45 and requires a TUIO enabled tracker. TUIOFX fur
 
 ## Downloading TUIOFX
 
-- TUIOFX Quickstart
-- TUIOFX-Core 
-- TUIOFX-All
+Below are all currently available downloads for the latest development version of TUIOFX (v0.10.4). There is not yet a stable version.
+
+- [TUIOFX Quickstart](https://github.com/TUIOFX/tuiofx/releases/download/0.10.4/tuiofx_quickstart.zip)
+    - Eclipse Project with 3 examples and all required libraries and dependencies
+- [TUIOFX-Core](https://github.com/TUIOFX/tuiofx/releases/download/0.10.4/tuiofx-core-0.10.4.jar) 
+    - JAR including TUIOFX-Core only
+- [TUIOFX-All](https://github.com/TUIOFX/tuiofx/releases/download/0.10.4/tuiofx-all-0.10.4.jar)
+    - JAR including TUIOFX-Core and TUIOFX-WidgetToolkit
 
 In order to get an overview ogf the API, please look at the [JavaDoc](http://tuiofx.org/api/index.html)
 
