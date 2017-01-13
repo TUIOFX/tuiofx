@@ -18,7 +18,7 @@ The TUIOFX toolkit comes with two parts, the **TUIOFX-Core** and the **TUIOFX-Wi
 ## Prerequisites
 
 TUIOFX was tested with Java 8u45 and requires a TUIO enabled tracker. TUIOFX further relies on the following libraries:
-- [TUIO 1.1. Java API](https://github.com/TUIOFX/TUIO11_JAVA)
+- [TUIO 1.1. Java API](https://github.com/mkalten/TUIO11_JAVA)
 - Simple Logging Facade for Java (SLF4J)
 - Guava: Google Core Libraries for Java
 
