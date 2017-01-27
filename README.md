@@ -66,7 +66,7 @@ tuioFX.start();
 ```
 Note: The class Configuration allows to customise some parameters to optimise TUIOFX for specific hardware or make application specific settings - with several presets at hand. Among the parameters that can be influenced are the duration of a long press, the detection of swipes, etc. Via the Configuration and Configuration.Builder it is also possbile to toggle the visualisation of detected touches and the debug output. 
 
-## Your First TUOIFX Application
+## Your First TUIOFX Application
 
 Here is a simple example that illustrates the usage of TUIOFX in a JavaFX application: 
 
