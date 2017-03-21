@@ -39,6 +39,8 @@ In order to get an overview ogf the API, please look at the [JavaDoc](http://tui
 
 Both JAR files are runnable by either double-clicking or calling ```java -jar tuiofx-<version>.jar```. Each JAR starts a small demo that allows you to test your TUIO setup. Both demos expect TUIO compatible hardware, delivering TUIO events on the standard port 3333. The [TUIO webpage](http://www.tuio.org/?software) provides a range of trackers, bridges, and simulators, that can help you with your specific setup. If you do not have a TUIO setup yet, we can recommend [Tongseng](https://github.com/fajran/tongseng) for testing with Apple multi-touch trackpads, and [TuioDroid](https://github.com/TobiasSchwirten/tuiodroid) and [TuioPad](http://www.memo.tv/tuiopad/) for testing with Android or iOS devices. Please mind that you require the needed libraries to start the JARs.
 
+Please mind, if your multi-touch hardware also sends native gesture- and touchevents (e.g. Windows Touch) besides TUIO events, to disable  the sending of native events.
+
 ## Using TUIOFX in your Code
 
 After downloading TUIOFX jars and dependencies, add or import the required jars to your JavaFX project. Alternatively start with the Quickstart project. In your code, initialize TUIOFX before launching your JavaFX application. Typically this is done in your main method: 
