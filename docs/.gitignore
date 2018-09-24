@@ -1,0 +1,8 @@
+_build/
+*.bak
+_ext/__pycache__
+tags
+.DS_STORE
+.idea
+*.pyc
+.vscode

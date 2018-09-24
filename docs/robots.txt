@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: master/
+
+sitemap: https://docs.tuiofx.io/sitemap.xml
